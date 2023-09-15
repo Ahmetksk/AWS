@@ -72,11 +72,11 @@ cat index.html
 
 ```
 ls -al
-sudo chmod -R 777 /usr/share/nginx/html
+sudo chmod -R 777 /usr/share/nginx/html                         # html uzerinde islem yapabilme yetkisi
 ```
 -  Remove existing `index.html`.
 ```
-sudo rm index.html
+sudo rm index.html                                              # index html silme komutu
 ```
 - Upload new `index.html` and `ken.jpg` files with `wget` command. Show the github and explain the RAW .
 ```
